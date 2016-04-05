@@ -1,7 +1,6 @@
 # COMPOSER
 /vendor/
 /components/
-/composer.lock
 
 # BOWER
 /bower_components
