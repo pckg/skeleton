@@ -1,0 +1,10 @@
+SetEnv TZ Slovenia/Ljubljana;
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule .? index.php [L]
+</IfModule>

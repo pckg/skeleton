@@ -1,0 +1,25 @@
+# COMPOSER
+/vendor/
+/components/
+/composer.lock
+
+# BOWER
+/bower_components
+
+# WWW
+/www/cache/
+/www/uploads/
+
+# CACHE
+/cache/*/*
+
+# APP UPLOADS
+/app/door/www/uploads/
+
+# LOGS
+logs
+
+# DEV -.-
+sublime
+.idea
+phinx.yml
