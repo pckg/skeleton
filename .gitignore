@@ -1,19 +1,21 @@
 # COMPOSER
-/vendor/
-/components/
+vendor
+components
 
 # BOWER
-/bower_components
+bower_components
 
 # WWW
-/www/cache/
-/www/uploads/
+www/cache/css/*
+www/cache/js/*
+www/cache/img/*
+www/uploads/*
+
+# GIT
+!**/.gitkeep
 
 # CACHE
-/cache/*/*
-
-# APP UPLOADS
-/app/door/www/uploads/
+cache/*/*
 
 # LOGS
 logs
