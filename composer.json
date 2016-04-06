@@ -10,20 +10,7 @@
     }
   ],
   "require": {
-    "pckg/framework": "dev-master",
-    "pckg/frontend": "dev-master",
-    "pckg/migrator": "dev-master",
-    "pckg/import": "dev-master",
-    "pckg/payment": "dev-master",
-    "lfw/menu": "dev-master",
-    "lfw/user": "dev-master",
-    "lfw/auth": "dev-master",
-    "lfw/admin": "dev-master",
-    "lfw/dynamic": "dev-master",
-    "lfw/generic": "dev-master",
-    "robmorgan/phinx": "0.*",
-    "doctrine/cache": "1.*",
-    "nette/mail": "^2.3"
+    "pckg/backend": "dev-master"
   },
   "minimum-stability": "dev",
   "autoload": {
