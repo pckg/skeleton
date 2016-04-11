@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Simply require console entry point, framework will take care of things.
+ */
+require_once "vendor/pckg/framework/src/console.php";
