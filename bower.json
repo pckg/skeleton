@@ -25,6 +25,9 @@
     "chart.js": "^2.3.0",
     "tinymce": "^4.5.4",
     "vue-router": "^2.3.0",
-    "blueimp-gallery": "^2.25.0"
+    "blueimp-gallery": "^2.25.0",
+    "vue.draggable": "^2.11.0",
+    "Sortable": "^1.5.1",
+    "owl.carousel": "^2.2.1"
   }
 }

@@ -1,12 +1,16 @@
 <?php
 
+use Doctrine\Common\Cache\ApcuCache;
+use Doctrine\Common\Cache\ArrayCache;
+
 return [
     'app'      => null,
     'domain'   => null,
     'title'    => null,
     'protocol' => 'http',
     'security' => [
-        'hash' => '',
+        'hash'   => '',
+        'dbhash' => '',
     ],
     'twig'     => [
         'cache'   => # requires composer doctrine/cache
@@ -47,6 +51,28 @@ return [
                 'time'       => 'H:i',
                 'dateCarbon' => '%d %B %Y',
                 'timeCarbon' => '',
+            ],
+        ],
+        'cache'     => [
+            'handler' => [
+                /**
+                 * In-memory cache, stored for request lifespan.
+                 */
+                'request' => [
+                    'handler' => ArrayCache::class,
+                ],
+                /**
+                 * ApcuCache, stored for session lifespan.
+                 */
+                'session' => [
+                    'handler' => ApcuCache::class,
+                ],
+                /**
+                 * ApcuCache, stored for app lifespan.
+                 */
+                'app'     => [
+                    'handler' => ApcuCache::class,
+                ],
             ],
         ],
     ],

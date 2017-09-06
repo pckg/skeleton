@@ -1,9 +1,8 @@
-# COMPOSER
+# DEPENDENCY MANAGERS - COMPOSER, BOWER, NODE
 vendor
 components
-
-# BOWER
 bower_components
+node_modules
 
 # WWW
 www/css
@@ -43,3 +42,6 @@ pckg.json
 
 # VAGRANT
 .vagrant/**
+
+# NPM DEBUG
+npm-debug.log
