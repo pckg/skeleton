@@ -39,7 +39,9 @@
     "doctrine/cache": "^1.6",
     "defuse/php-encryption": "^2.0",
     "pelago/emogrifier": "^1.2",
-    "symfony/dependency-injection": "3.3.*"
+    "symfony/dependency-injection": "3.3.*",
+    "facebook/facebook-instant-articles-sdk-php": "dev-master",
+    "guzzlehttp/guzzle": "6.*"
   },
   "require-dev": {
     "codeception/codeception": "dev-master"

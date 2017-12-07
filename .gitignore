@@ -1,7 +1,6 @@
-# DEPENDENCY MANAGERS - COMPOSER, BOWER, NODE
+# DEPENDENCY MANAGERS - COMPOSER, NPM / YARN
 vendor
 components
-bower_components
 node_modules
 
 # WWW
