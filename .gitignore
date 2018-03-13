@@ -1,4 +1,4 @@
-# DEPENDENCY MANAGERS - COMPOSER, NPM / YARN
+# DEPENDENCY MANAGERS - COMPOSER, BOWER, NODE / YARN
 vendor
 components
 node_modules
@@ -17,6 +17,7 @@ www/storage
 
 # STORAGE
 storage/**
+storage
 
 # LOGS
 logs/**
