@@ -26,8 +26,7 @@
     "dimsemenov/magnific-popup": "dev-master",
     "intervention/image": "^2.3",
     "defuse/php-encryption": "^2.0",
-    "symfony/dependency-injection": "3.3.*",
-    "guzzlehttp/guzzle": "6.*"
+    "symfony/dependency-injection": "3.3.*"
   },
   "require-dev": {
     "codeception/codeception": "dev-master"
