@@ -13,28 +13,18 @@
     "pckg/framework": "dev-master",
     "pckg/migrator": "dev-master",
     "pckg/queue": "dev-master",
+    "pckg/manager": "dev-master",
     "pckg/mail": "dev-master",
     "pckg/translator": "dev-master",
     "pckg/auth": "dev-master",
     "pckg/generic": "dev-master",
     "pckg/helpers-js": "dev-master",
-    "pckg/helpers-less": "dev-master",
-    "nesbot/carbon": "1.*",
-    "twbs/bootstrap": "3.*",
-    "components/jquery": "2.*",
-    "bootstrap-select/bootstrap-select": "1.*",
-    "dimsemenov/magnific-popup": "dev-master",
-    "intervention/image": "^2.3",
-    "defuse/php-encryption": "^2.0",
-    "symfony/dependency-injection": "3.3.*"
+    "pckg/helpers-less": "dev-master"
   },
   "require-dev": {
-    "codeception/codeception": "dev-master"
+    "codeception/codeception": "dev-master",
+    "maximebf/debugbar": "^1.16"
   },
   "minimum-stability": "dev",
-  "scripts": {
-    "post-install-cmd": [
-      "php console project:lock --checkout"
-    ]
-  }
+  "prefer-stable": true
 }
