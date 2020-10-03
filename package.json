@@ -40,7 +40,7 @@
     "@fortawesome/fontawesome-free": "^5.*",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.*",
-    "jquery": "^2.*",
+    "jquery": "^3.*",
     "moment": "^2.*",
     "moment-timezone": "^0.5.*",
     "node-sass": "^4.*",
