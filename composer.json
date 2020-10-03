@@ -22,7 +22,7 @@
     "pckg/helpers-less": "dev-master"
   },
   "require-dev": {
-    "codeception/codeception": "dev-master",
+    "codeception/codeception": "^4.1.7",
     "maximebf/debugbar": "^1.16"
   },
   "minimum-stability": "dev",
