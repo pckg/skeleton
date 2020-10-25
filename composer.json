@@ -10,20 +10,12 @@
     }
   ],
   "require": {
-    "pckg/framework": "dev-master",
-    "pckg/migrator": "dev-master",
-    "pckg/queue": "dev-master",
-    "pckg/manager": "dev-master",
+    "pckg-app/frontend": "dev-master",
     "pckg/mail": "dev-master",
-    "pckg/translator": "dev-master",
-    "pckg/auth": "dev-master",
-    "pckg/generic": "dev-master",
-    "pckg/helpers-js": "dev-master",
-    "pckg/helpers-less": "dev-master"
+    "pckg/generic": "dev-master"
   },
   "require-dev": {
-    "codeception/codeception": "^4.1.7",
-    "maximebf/debugbar": "^1.16"
+    "pckg-app/frontend-dev": "dev-master"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
