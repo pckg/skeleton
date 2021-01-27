@@ -17,6 +17,18 @@
   "require-dev": {
     "pckg-app/frontend-dev": "dev-master"
   },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit --help --stop-on-defect",
+      "vendor/bin/phpcloc cloc app/",
+      "vendor/bin/phpstan analyse app/ --level=1",
+      "vendor/bin/phpcs -p app/",
+      "vendor/bin/codecept run"
+    ]
+  },
+  "scripts-descriptions": {
+    "test": "Run all tests and quality checks"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }

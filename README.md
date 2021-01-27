@@ -1,6 +1,8 @@
 # pckg/skeleton
 A clean start for every pckg project.
 
+![Build status](https://github.com/pckg/skeleton/workflows/Pckg%20Skeleton%20CI/badge.svg)
+
 # Prepare
 `$docker run \
 -v /www/schtr4jh/comms-auth/:/var/www/html \
