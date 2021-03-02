@@ -5,9 +5,9 @@
   "license": "",
   "private": true,
   "devDependencies": {
-    "pckg-app-frontend-dev": "^0.0.5b"
+    "pckg-app-frontend-dev": "^0.0.5-c"
   },
   "dependencies": {
-    "pckg-app-frontend": "^0.0.5b"
+    "pckg-app-frontend": "^0.0.5-c"
   }
 }
