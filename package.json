@@ -5,9 +5,14 @@
   "license": "",
   "private": true,
   "devDependencies": {
-    "pckg-app-frontend-dev": "^0.0.5-c"
+    "pckg-app-frontend-dev": "^0.0.6"
   },
   "dependencies": {
-    "pckg-app-frontend": "^0.0.5-c"
+    "pckg-app-frontend": "^0.0.6"
+  },
+  "scripts": {
+    "test": "mochapack --webpack-config webpack.config.js --require __tests__/setup.js __tests__/*.spec.js",
+    "prod": "webpack --watch --mode=production --config=webpack.config.js",
+    "dev": "webpack --watch --mode=development --config=webpack.config.js"
   }
 }
