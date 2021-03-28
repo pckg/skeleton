@@ -80,13 +80,13 @@ Open in web browser.
 `https://localhost:8072/`
 
 # Directory structure
-`vendor`, `components` and `node_modules` - dependency managers directories
-`config` - root project configuration
-`www` - directory that will be exposed to the internet
-`storage` - directory for framework, cache, uploads, tmp and other private and public files
-`app/$app/config` - app configuration
-`app/$app/src` - app source files
-`app/$app/public` - static assets (private, can be mounted to `www`)
+- `vendor`, `components` and `node_modules` - dependency managers directories
+- `www` - directory that will be exposed to the internet
+- `storage` - directory for framework, cache, uploads, tmp and other private and public files
+- `config` - root project configuration
+- `app/$app/config` - app configuration
+- `app/$app/src` - app source files
+- `app/$app/public` - static assets (private, can be mounted to `www`)
 
 _Note: it is recommended to disable discovery of dependency manager directories, `www` and `storage`._
 
@@ -119,6 +119,9 @@ Runs mocha + codeception tests + static code analysis.
 - [pckg/helpers-less](https://github.com/pckg/helpers-less) - simple frontend LESS framework
 - [pckg/helpers-js](https://github.com/pckg/helpers-js) - frontend Vue helpers
 - [pckg/orm](https://github.com/pckg/orm) - simple JS ORM
+
+## More
+- [pckg-app/demo-app](https://github.com/pckg-app/demo-app) - Demo app with feature presentation
 
 # Support
 
