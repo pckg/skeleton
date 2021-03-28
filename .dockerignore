@@ -1,0 +1,11 @@
+**/.github/
+**/.git
+**/.pckg/
+**/node_modules/
+
+**/docker/.env**
+!**/docker/**.impero
+**/tests/
+
+# mounted on production
+**/storage/
