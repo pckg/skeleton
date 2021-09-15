@@ -108,11 +108,14 @@ Runs mocha + codeception tests + static code analysis.
 - [pckg/htmlbuilder](https://github.com/pckg/htmlbuilder) - more about form and request validation
 - [pckg/manager](https://github.com/pckg/manager) - more about asset & meta management
 - [pckg/auth](https://github.com/pckg/auth) - more about local and remote authentication options
+- [pckg/storage](https://github.com/pckg/storage) - mora about storage layer
 - [pckg/translator](https://github.com/pckg/translator) - mora about i18n layer
 - [pckg/queue](https://github.com/pckg/queue) - more about queue layer
 - [pckg/locale](https://github.com/pckg/locale) - more about localization layer
 - [pckg/cache](https://github.com/pckg/cache) - more about cache layer
 - [pckg/httpql](https://github.com/pckg/httpql) - more about querying your data
+- [pckg/mail](https://github.com/pckg/mail) - more about mail communication
+- [pckg/websocket](https://github.com/pckg/websocket) - more about websocket server and client
 
 ## Frontend
 
