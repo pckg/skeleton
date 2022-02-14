@@ -6,7 +6,7 @@ A clean start for every pckg project.
 
 # Features
 
-- PHP 7.4 Framework with ORM, Migrations, Auth, Queue and I18n modules on the backend - [pckg](https://github.com/pckg)
+- PHP 8.0 Framework with ORM, Migrations, Auth, Queue and I18n modules on the backend - [pckg](https://github.com/pckg)
 - Webpack with VueJS ecosystem integration on the frontend - [pckg-app/frontend](https://github.com/pckg-app/frontend)
   and [pckg-app/frontend-dev](https://github.com/pckg-app/frontend-dev)
 - Plug'n'play Docker images for Dev and Prod environments - [pckg/docker-images](https://github.com/pckg/docker-images)

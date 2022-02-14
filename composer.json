@@ -10,12 +10,12 @@
     }
   ],
   "require": {
-    "pckg-app/frontend": "dev-master",
+    "pckg-app/frontend": "dev-next-8.0",
     "pckg/mail": "dev-master",
-    "pckg/generic": "dev-master"
+    "pckg/generic": "dev-next-8.0"
   },
   "require-dev": {
-    "pckg-app/frontend-dev": "dev-master"
+    "pckg-app/frontend-dev": "dev-next-8.0"
   },
   "scripts": {
     "test": [
