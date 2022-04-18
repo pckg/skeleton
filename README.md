@@ -116,6 +116,8 @@ Runs mocha + codeception tests + static code analysis.
 - [pckg/httpql](https://github.com/pckg/httpql) - more about querying your data
 - [pckg/mail](https://github.com/pckg/mail) - more about mail communication
 - [pckg/websocket](https://github.com/pckg/websocket) - more about websocket server and client
+- [pckg/tenant](https://github.com/pckg/tenant) - mora about multi-tenancy support
+- [pckg/task](https://github.com/pckg/task) - mora about async task handling
 
 ## Frontend
 
@@ -125,6 +127,7 @@ Runs mocha + codeception tests + static code analysis.
 
 ## More
 - [pckg-app/demo-app](https://github.com/pckg-app/demo-app) - Demo app with feature presentation
+- [pckg/docker-images](https://github.com/pckg/docker-images) - Docker images
 
 # Support
 
