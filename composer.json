@@ -10,18 +10,19 @@
     }
   ],
   "require": {
-    "pckg-app/frontend": "dev-next-8.0",
+    "php": "8.0.*",
+    "pckg-app/frontend": "dev-next-8.0 as dev-master",
     "pckg/mail": "dev-master",
-    "pckg/generic": "dev-next-8.0"
+    "pckg/generic": "dev-next-8.0 as dev-master"
   },
   "require-dev": {
-    "pckg-app/frontend-dev": "dev-next-8.0"
+    "pckg-app/frontend-dev": "dev-next-8.0 as dev-master"
   },
   "scripts": {
     "test": [
       "true || vendor/bin/phpunit --help --stop-on-defect",
       "true || vendor/bin/phpcloc cloc app/",
-      "vendor/bin/phpstan analyse app/ --level=1",
+      "vendor/bin/phpstan analyse app/ --level=6",
       "vendor/bin/phpcs --extensions=php --warning-severity=8 --error-severity=1 --standard=PSR12 --parallel=2 -p app/",
       "vendor/bin/codecept run"
     ],
